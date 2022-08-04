@@ -97,18 +97,18 @@ var lovesToPlay = true;
 var lovesDogPark = false;
 var lovesTreats = true;
 var age = 1;
-
+console.log(========);
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToPlay && age <= 1);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: My final line of code evaluated to true, because for the && logical operator to be true, both statements have to be true. If you look at the assigned boolean for lovesToPlay it is true and the age variable is assigned to 1, which is less than or equal to 1 and thus true. Both values are two so the logic operator is true.
