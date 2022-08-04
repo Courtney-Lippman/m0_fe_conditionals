@@ -60,21 +60,25 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 // YOU DO: Explain.
+//The above line of code is printing the evaluation of the conditional statement of is 4 less than 9. The comparison will evaluate to true.
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
+//The above lines of code are ultimately printing the evaluation of the conditional statement of is 4 less than the declared variable of books. The first line of code assigns the variable books to be 3. The comparison will evaluate to False.
+
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// The first line declares the variable friends to be assigned to 6. The second line declares the variable siblings to be assigned to 2. The third line logs to the console the evaluation of the conditional statement that the conditional is true if variable friends is greater than the variable siblings. The comparison will evaluate to true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
 // YOU DO: Explain.
-
+// The first line of code declares the variable attendees to be assigned to 9 and the second line of code declares the variable meals to be assigned to 8.The third line logs to the console the evaluation of the conditional statement that the conditional is true if variable attendees is not equal to the variable meals. The comparison will evaluate to true.
 
 // #-------------------
 // PART 3: Logical Operators
